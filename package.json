@@ -1,0 +1,26 @@
+{
+  "name": "splinterplus",
+  "version": "0.0.1",
+  "description": "SplinterPlus extension: Augment your Splinterlands experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoodkev/SplinterPlus.git"
+  },
+  "keywords": [
+    "splinterplus",
+    "hive",
+    "splinterlands",
+    "extension",
+    "game"
+  ],
+  "author": "stoodkev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stoodkev/SplinterPlus/issues"
+  },
+  "homepage": "https://github.com/stoodkev/SplinterPlus#readme"
+}
