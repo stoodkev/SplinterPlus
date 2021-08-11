@@ -1,0 +1,14 @@
+{
+  "name": "SplinterPlus",
+  "description": "__MSG_description__",
+  "default_locale": "en",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "icons": {
+    "128": "/assets/img/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
