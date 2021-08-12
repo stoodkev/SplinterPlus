@@ -23,15 +23,21 @@
   align-items: center;
   height: 40px;
   width: 100%;
+  margin-bottom: 50px;
   img {
     height: 30px;
     margin-right: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
   }
   #text {
     font-size: 30px;
     color: white;
     text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
     line-height: 30px;
+    height: 30px;
     #plus {
       color: red;
     }

@@ -1,16 +1,22 @@
 import React from 'react';
+import './index.scss';
 
 type Props = {
   isChecked: boolean;
   handleChange: () => void;
+  label: String;
 };
-const Toggle = ({ isChecked, handleChange }: Props) => {
+
+const ToggleCheckbox = ({ isChecked, handleChange, label }: Props) => {
   return (
-    <label className="switch">
-      <input type="checkbox" checked={isChecked} onChange={handleChange} />
-      <div className="slider"></div>
-    </label>
+    <div className="toggle_checkbox">
+      <label className="switch">
+        <input type="checkbox" checked={isChecked} onChange={handleChange} />
+        <div className="slider"></div>
+      </label>
+      <span>{label}</span>
+    </div>
   );
 };
 
-export default Toggle;
+export default ToggleCheckbox;
